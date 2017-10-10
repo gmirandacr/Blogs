@@ -1,0 +1,28 @@
+body {
+
+}
+
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.imgs{
+  width: 100%;
+}
+
+.header{
+    background-color: #00d2ff;
+}
+
+.img_logo{
+  max-width: 200px;
+  border: 4px solid #ff0042;
+  margin: 20px;
+
+}
+
+.img_redes{
+  width: 30px;
+}
