@@ -7,19 +7,17 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Blog Música</title>
   </head>
   <body>
-    <div id="container-fluid">
-      <div class="header">
-        <div class="col-8 logo">
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-md-8 logo">
           <img class="img_logo" src="images/music.png" alt="Logo Música">
         </div>
-        <div class="col-4">
+        <div class="col-md-4 redes align-self-end">
             <img class="img_redes" src="images/facebook.png" alt="Red social Facebook">
             <img class="img_redes" src="images/instagram.png" alt="Red social Instagram">
             <img class="img_redes" src="images/twitter.png" alt="Red social Twitter">
@@ -30,9 +28,10 @@
       </div>
     </div>
 
-        <!--NavBar-->
-<!--navbar navbar-expand-lg navbar-dark bg-dark fixed-top-->
-  <nav class="nav nav-pills flex-column flex-sm-row justify-content-around navbar-light" style="background-color:#ff0042;">
+  <!--NavBar-->
+  <!--navbar navbar-expand-lg navbar-dark bg-dark fixed-top-->
+
+  <nav class="nav nav-pills flex-column flex-sm-row justify-content-around navbar-light">
     <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Inicio</a>
     <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Artistas</a>
     <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Grupos</a>
@@ -41,27 +40,47 @@
     <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Acordes</a>
   </nav>
 
-<!--
-<ul class="nav nav-pills nav-fill">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Longer nav link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
--->
         <!--End NavBar-->
-        <!--contenido-->
+  <!--contenido-->
+  <div class="container-fluid">
+    <div class="row contenido">
+      <div class="col-9">
+        <div class="entradas">
+          <div>
+            <h1>Curiosidades de Metallica</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div>
+            <img class="imgs" src="images/curiosidades_metallica.jpg" alt="Banda Metallica">
+          </div>
+        </div>
 
-        <!--side buscador-->
+
+          <!--comentario-->
+            <div class="card-block clearfix">
+            <textarea placeholder="Comentario" class="pb-cmnt-textarea"></textarea>
+          </div>
+
+      </div>
+
+      <div class="col-3 side">
+        <div class="input-group input-group-sm">
+          <input type="text" class="form-control input-md" placeholder="Buscar"/>
+            <span class="input-group-btn">
+              <button class="btn btn-info btn-lg" type="button">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+      </div>
+    </div>
+  </div>
+
 
 
   </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 </html>
