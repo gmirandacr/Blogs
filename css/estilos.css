@@ -86,11 +86,16 @@ padding: 0;
 }
 
 .comentario{
-  clear: left;
+  float: left;
+  width: 80%;
 }
 
 .pb-cmnt-textarea {
   width: 100%;
+}
+
+.img_usuario{
+  float: left;
 }
 
 /*desktop*/
