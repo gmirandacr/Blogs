@@ -26,16 +26,16 @@ body{
 }
 
 .contenido{
-    background-color: rgba(215,209,199, 0.8) !important;
+    background-color: rgba(86,86,86,0.8) !important;
 }
 
 .titulo{
-  border-right: #E6E3E1 solid 2px;
+  border-right: #E6E3E1 solid 1px;
   padding: 20px !important;
 }
 
 .division{
-    border-bottom: #E6E3E1 solid 2px;
+    border-bottom: #E6E3E1 solid 1px;
     padding: 10px;
 }
 
@@ -44,17 +44,30 @@ body{
 }
 
 .fondo_articulo{
-  background-color: rgba(86,86,86,0.8) !important;
-  border-radius: 5px;
+  background-color: rgba(215,209,199, 0.8) !important;
+  border-radius: 5px !important;
 }
 
-.izq{
-  margin-right: 20px !important;
-}
-
-ul li{
+ul li .opc{
   border: 1px solid #76323f !important;
 }
-ul li a{
+ul li a {
   color: #76323f !important;
+}
+
+
+.foto_usuario{
+  max-width: 50px;
+}
+
+.round{
+  border-radius: 5px !important;
+}
+
+.set_color{
+  color: rgb(118,50,63) !important;
+}
+
+.set_background{
+  background-color: rgb(118,50,63) !important;
 }
